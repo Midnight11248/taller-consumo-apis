@@ -1,0 +1,161 @@
+/* ===============================
+   BODY (FONDO DINÁMICO)
+=================================*/
+
+body{
+    margin:0;
+    font-family:Arial;
+    color:rgb(3, 13, 26);
+
+    /* Fondo inicial */
+    background:url('img/tormenta.png') center/cover no-repeat fixed;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+
+    transition: background 0.8s ease;
+}
+
+
+/* ===============================
+   HERO (SOLO DECORATIVO)
+=================================*/
+
+.hero{
+    display:none; /* ya no lo necesitamos visualmente */
+}
+
+
+/* ===============================
+   CARD GLASS
+=================================*/
+
+.card{
+    background:rgba(255,255,255,0.15);
+    backdrop-filter: blur(15px);
+    padding:30px;
+    border-radius:20px;
+    width:350px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+
+/* ===============================
+   TITULO
+=================================*/
+
+.app-title{
+    margin-bottom:15px;
+    font-size:22px;
+    font-weight:bold;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+
+/* ===============================
+   BUSCADOR
+=================================*/
+
+.search{
+    display:flex;
+    gap:10px;
+}
+
+.search input{
+    flex:1;
+    padding:10px;
+    border-radius:30px;
+    border:none;
+    outline:none;
+}
+
+.search button{
+    border:none;
+    border-radius:50%;
+    width:45px;
+    height:45px;
+    cursor:pointer;
+    background:white;
+}
+
+.search button img{
+    width:20px;
+}
+
+
+/* ===============================
+   CLIMA
+=================================*/
+
+.weather-icon{
+    width:120px;
+    margin:20px auto;
+}
+
+.temp{
+    font-size:48px;
+}
+
+.description{
+    text-transform:capitalize;
+}
+
+
+/* ===============================
+   DETALLES
+=================================*/
+
+.details{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.details div{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.details img{
+    width:30px;
+}
+
+.extra{
+    font-size:14px;
+    margin-top:10px;
+}
+
+
+/* ===============================
+   PRONOSTICO
+=================================*/
+
+.forecast{
+    margin-top:20px;
+    display:flex;
+    gap:10px;
+    overflow-x:auto;
+}
+
+.forecast div{
+    background:rgba(255,255,255,0.2);
+    padding:8px;
+    border-radius:10px;
+    min-width:70px;
+    font-size:12px;
+}
+
+
+/* ===============================
+   ERROR
+=================================*/
+
+.error{
+    margin-top:15px;
+    color:#ffcccc;
+}

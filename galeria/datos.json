@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "titulo": "Molienda de grano",
+    "descripcion": "Proceso inicial donde se agrega el grano al recipiente para comenzar la maceración.",
+    "url": "img/1.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Filtrado del mosto",
+    "descripcion": "Separación del grano del líquido utilizando sistema de filtrado artesanal.",
+    "url": "img/2.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Recirculación",
+    "descripcion": "Proceso de recirculación del mosto para mejorar la claridad antes del hervido.",
+    "url": "img/3.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "Sistema IoT de monitoreo",
+    "descripcion": "Interfaz digital mostrando parámetros del sistema de control y monitoreo.",
+    "url": "img/4.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "Pantalla OLED ESP",
+    "descripcion": "Dispositivo mostrando temperatura, IP y estado del sistema en tiempo real.",
+    "url": "img/5.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Bot de monitoreo",
+    "descripcion": "Interfaz de Telegram para consulta remota de temperatura y estado del relé.",
+    "url": "img/6.jpg"
+  },
+  {
+    "id": 7,
+    "titulo": "Sistema de fermentación",
+    "descripcion": "Contenedor con airlock para control del proceso de fermentación.",
+    "url": "img/7.jpg"
+  },
+  {
+    "id": 8,
+    "titulo": "Proceso de carbonatación",
+    "descripcion": "Preparación del sistema de embotellado y generación de espuma inicial.",
+    "url": "img/8.jpg"
+  },
+  {
+    "id": 9,
+    "titulo": "Tapas y sellado",
+    "descripcion": "Preparación de tapas y botellas para el proceso de sellado final.",
+    "url": "img/9.jpg"
+  },
+  {
+    "id": 10,
+    "titulo": "Producto final",
+    "descripcion": "Botella final con cerveza artesanal lista para consumo.",
+    "url": "img/10.jpg"
+  }
+]
